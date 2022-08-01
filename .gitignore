@@ -1,2 +1,5 @@
 /build
 pico-sdk
+/.github
+/.images
+/.vscode
