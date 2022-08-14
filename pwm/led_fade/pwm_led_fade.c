@@ -13,12 +13,13 @@
 #include "hardware/irq.h"
 #include "hardware/pwm.h"
 
+// #define PICO_DEFAULT_LED_PIN 0
 #ifdef PICO_DEFAULT_LED_PIN
 void on_pwm_wrap() {
     static int fade = 0;
     static bool going_up = true;
     // Clear the interrupt flag that brought us here
-    pwm_clear_irq(pwm_gpio_to_slice_num(PICO_DEFAULT_LED_PIN));
+    pwm_clear_irq(pwm_gpio_to_slice_num(1));
 
     if (going_up) {
         ++fade;
@@ -35,7 +36,7 @@ void on_pwm_wrap() {
     }
     // Square the fade value to make the LED's brightness appear more linear
     // Note this range matches with the wrap value
-    pwm_set_gpio_level(PICO_DEFAULT_LED_PIN, fade * fade);
+    pwm_set_gpio_level(1, fade * fade);
 }
 #endif
 
@@ -44,9 +45,13 @@ int main() {
 #warning pwm/led_fade example requires a board with a regular LED
 #else
     // Tell the LED pin that the PWM is in charge of its value.
-    gpio_set_function(PICO_DEFAULT_LED_PIN, GPIO_FUNC_PWM);
+    // gpio_set_function(PICO_DEFAULT_LED_PIN, GPIO_FUNC_PWM);
+    
+    gpio_set_function(1, GPIO_FUNC_PWM);
+
     // Figure out which slice we just connected to the LED pin
-    uint slice_num = pwm_gpio_to_slice_num(PICO_DEFAULT_LED_PIN);
+    // uint slice_num = pwm_gpio_to_slice_num(PICO_DEFAULT_LED_PIN);
+    uint slice_num = pwm_gpio_to_slice_num(1);
 
     // Mask our slice's IRQ output into the PWM block's single interrupt line,
     // and register our interrupt handler
