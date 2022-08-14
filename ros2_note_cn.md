@@ -214,3 +214,16 @@ ros2 topic list
 - subscribe 
 
 <div><img src="./code_02.png" width="50%"></div>
+
+## pico c++ 开发
+
+### 自动创建程序
+
+```bash
+$ git clone https://github.com/raspberrypi/pico-project-generator.git
+It can then be run in graphical mode,
+$ cd pico-project-generator
+$ ./pico_project.py --gui
+```
+
+<div><img src="./pi_sdk_01.png" width="80%"></div>
