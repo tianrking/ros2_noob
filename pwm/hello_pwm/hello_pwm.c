@@ -40,7 +40,8 @@ int main() {
 
     pwm_set_enabled(slice_num,true);
 
-    pwm_set_wrap(slice_num,100);
+    //for 100 HZ  0.01/8ns 
+    pwm_set_wrap(slice_num,1250000);
 
     // pwm_set_chan_level(slice_num,PWM_CHAN_A,250);
 
@@ -55,8 +56,8 @@ int main() {
     while (1)
     {
     
-        i++;
-        pwm_set_chan_level(slice_num,PWM_CHAN_A,i/10*100);
+          i++;
+        pwm_set_chan_level(slice_num,PWM_CHAN_A,i/10*1250000);
         sleep_ms(300);
 
         if(i>10){
