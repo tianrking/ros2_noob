@@ -37,7 +37,7 @@ float measure_duty_cycle(uint gpio) {
 }
 
 const float test_duty_cycles[] = {
-        0.f,
+        0.f,    
         0.1f,
         0.5f,
         0.9f,

@@ -34,6 +34,7 @@ void on_pwm_wrap() {
             going_up = true;
         }
     }
+
     // Square the fade value to make the LED's brightness appear more linear
     // Note this range matches with the wrap value
     pwm_set_gpio_level(1, fade * fade);
