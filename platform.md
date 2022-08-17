@@ -68,7 +68,7 @@ pio run --target erase
 编译固件，
 
 ```bash
-pio run
+pio run -v
 ```
 
 仅编译指定配置项
