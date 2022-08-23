@@ -81,18 +81,26 @@ enum PID_MODE
     PID_DELTA
 };
 
-void PID_init(pid_type_def *pid, uint8_t mode, const float PID[3], float max_out, float max_iout)
+// void PID_init(pid_type_def *pid, uint8_t mode, const float PID[3], float max_out, float max_iout)
+
+void PID_init(pid_type_def *pid)
 {
-    if (pid == NULL || PID == NULL)
-    {
-        return;
-    }
-    pid->mode = mode;
-    pid->Kp = PID[0];
-    pid->Ki = PID[1];
-    pid->Kd = PID[2];
-    pid->max_out = max_out;
-    pid->max_iout = max_iout;
+    // if (pid == NULL || PID == NULL)
+    // {
+    //     return;
+    // }
+    // pid->mode = mode;
+    // pid->Kp = PID[0];
+    // pid->Ki = PID[1];
+    // pid->Kd = PID[2];
+
+    pid->mode = 0;
+    pid->Kp  = 100;
+    pid->Ki  = 0;
+    pid->Kd  = 0.2;
+
+    pid->max_out = 62000;
+    pid->max_iout = 10000;
     pid->Dbuf[0] = pid->Dbuf[1] = pid->Dbuf[2] = 0.0f;
     pid->error[0] = pid->error[1] = pid->error[2] = pid->Pout = pid->Iout = pid->Dout = pid->out = 0.0f;
 }
@@ -113,11 +121,13 @@ float PID_calc(pid_type_def *pid, float ref, float set)
     //计算最新的误差值
     pid->error[0] = set - ref;
     //判断PID设置的模式
-    if (pid->mode == PID_POSITION)
+    // if (pid->mode == PID_POSITION)
+    if (pid->mode == 0)
     {
         //位置式PID
         //比例项计算输出
         pid->Pout = pid->Kp * pid->error[0];
+        printf("pid->Pout  %8d \n" ,pid->Pout );
         //积分项计算输出
         pid->Iout += pid->Ki * pid->error[0];
         //存放过去两次计算的微分误差值
@@ -128,11 +138,11 @@ float PID_calc(pid_type_def *pid, float ref, float set)
         //微分项输出
         pid->Dout = pid->Kd * pid->Dbuf[0];
         //对积分项进行限幅
-        LimitMax(pid->Iout, pid->max_iout);
+        // LimitMax(pid->Iout, pid->max_iout);
         //叠加三个输出到总输出
         pid->out = pid->Pout + pid->Iout + pid->Dout;
         //对总输出进行限幅
-        LimitMax(pid->out, pid->max_out);
+        // LimitMax(pid->out, pid->max_out);
     }
     else if (pid->mode == PID_DELTA)
     {
@@ -150,7 +160,7 @@ float PID_calc(pid_type_def *pid, float ref, float set)
         //叠加三个项的输出作为总输出
         pid->out += pid->Pout + pid->Iout + pid->Dout;
         //对总输出做一个先限幅
-        LimitMax(pid->out, pid->max_out);
+        // LimitMax(pid->out, pid->max_out);
 	}
 	return pid->out;
 }
@@ -199,14 +209,20 @@ int main() {
 
     pid_type_def *diy_pid;
 
-    const float _PID[] = {1,0,0.2};
-    const float max_out = 900;
-    PID_init(diy_pid,0,_PID,max_out,max_out);
+    const float _PID[] = {100,1,1};
+    const float max_out = 60000;
+    // PID_init(diy_pid,PID_POSITION,_PID,60000,60000);
 
+    PID_init(diy_pid);
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, 30000); 
 
     float last_value = 1;
 
     int _pwm = i * wrap/10 ;
+
+    int delta_last;
+
+    float output_pwm=12000;
 
     while (1) {
         // note: thanks to two's complement arithmetic delta will always
@@ -236,23 +252,26 @@ int main() {
         // printf("position %8d, delta %6d   ,  %6d    %6d  \n  ", new_value,  delta , PID_calc(diy_pid, delta , 450),PID_calc(diy_pid, 450 ,delta));
         // printf("position %8d, delta %6d  \n  ", new_value);    
 
-        int err = new_value - 450;
+
+        output_pwm = output_pwm + 4*(220-delta);
+
+        output_pwm = output_pwm >  65000 ? 65000:output_pwm; //65025
+        output_pwm = output_pwm < 0 ?  1 : output_pwm;  
+
+        delta_last = delta ; 
         
-        if (err < 0 ){
-            _pwm += 100;
-            pwm_set_chan_level(slice_num, PWM_CHAN_A, _pwm); 
-        }
+        // PID_calc(diy_pid, delta , 450);
 
-        if(err>0){
-            _pwm -= 100;
-            pwm_set_chan_level(slice_num, PWM_CHAN_A, _pwm); 
-        }
+        // float _kk  = PID_calc(diy_pid, delta , 450);
+
+        
             
-        last_value = new_value;
+    
+        pwm_set_chan_level(slice_num, PWM_CHAN_A, output_pwm); 
 
-        printf("position %8d, delta %6d   ,  %6d  \n  ", new_value,  delta , _pwm);
+        printf("position %8d, delta %6d   ,  %6d  \n  ", new_value,  delta , output_pwm);
  
-        sleep_ms(100);
+        sleep_ms(50);
     }
 }
 
