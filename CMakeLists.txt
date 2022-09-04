@@ -17,6 +17,7 @@ pico_generate_pio_header(motor_control ${CMAKE_CURRENT_LIST_DIR}/quadrature_enco
 
 target_sources(motor_control PRIVATE motor_control.cpp)
 
+# pull in common dependencies
 target_link_libraries(motor_control PRIVATE
         pico_stdlib
         pico_multicore
@@ -24,6 +25,9 @@ target_link_libraries(motor_control PRIVATE
         hardware_pwm
         )
 
+# enable usb output, disable uart output
 pico_enable_stdio_usb(motor_control 1)
+pico_enable_stdio_uart(motor_control 0)
 
+# create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(motor_control)
