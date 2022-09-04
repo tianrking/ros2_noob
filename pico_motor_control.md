@@ -209,7 +209,7 @@ int main()
     // 选择输出 pwm 的引脚 用作控制信号传入L298n 电机驱动并完成初始化
     gpio_set_function(GPIO_motor_pwm, GPIO_FUNC_PWM);
     uint slice_num = pwm_gpio_to_slice_num(GPIO_motor_pwm);
-    wrap = 62499; // 2khz
+    wrap = 62500; // 2khz
     pwm_set_wrap(slice_num, wrap);
     pwm_set_enabled(slice_num, true);
 

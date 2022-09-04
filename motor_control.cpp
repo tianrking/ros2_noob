@@ -73,9 +73,9 @@ int main()
 
     gpio_set_function(GPIO_motor_pwm, GPIO_FUNC_PWM);
     uint slice_num = pwm_gpio_to_slice_num(GPIO_motor_pwm);
-    wrap = 62499; // 2khz
-    // wrap = 12499 ; //should be 10 khz right
-    // wrap = 1249 ; // should be 100 khz right
+    wrap = 62500; // 2khz
+    // wrap = 12500 ; //should be 10 khz right
+    // wrap = 1250 ; // should be 100 khz right
     pwm_set_wrap(slice_num, wrap);
     pwm_set_enabled(slice_num, true);
 
