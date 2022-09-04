@@ -121,7 +121,9 @@ V-pwm = 3.3*50% = 1.65V 在高频的情况下我们也可以将其视为一个1.
 
 ### 编码器数值读取与闭环控制  
 
-通过以上的步骤 我们可用调制出需要的pwm信号，现在我们利用编码器来获取电机转动的相对速度，下面以便于理解的增量式PID来举例说明
+通过以上的步骤 我们可用调制出需要的pwm信号，现在我们利用编码器来获取电机转动的相对速度，下面以便于理解的增量式PID来举例说明。
+
+**此步骤需要调用 [quadrature_encoder.pio](https://github.com/raspberrypi/pico-examples/blob/master/pio/quadrature_encoder/quadrature_encoder.pio) 在开始前我们需要先拷贝此文件**
 
 1. 定义一个便于实现PID的类
 
