@@ -34,6 +34,7 @@
     }
 
 const uint LED_PIN = 25;
+uint slice_num;
 
 rcl_publisher_t publisher_base;
 std_msgs__msg__Int32 msg_base;
@@ -54,36 +55,34 @@ void timer_callback(rcl_timer_t *timer, int64_t last_call_time)
 }
 
 int k = 1;
-void subscription_callback_base(const void * msgin)
-{
-  // Cast received message to used type
-  const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
 
-  // Process message
-  printf("Received: %d\n", msg->data);
-  if(k>0){
+void subscription_callback_base(const void *msgin_base)
+{
+    // Cast received message to used type
+    const std_msgs__msg__Int32 *msg_base = (const std_msgs__msg__Int32 *)msgin_base;
+
+    // Process message
+    // printf("Received: %d\n", msg_base->data);
+    if (k > 0)
+    {
         gpio_set_dir(LED_PIN, 1);
-  }
-  else{
+    }
+    else
+    {
         gpio_set_dir(LED_PIN, 0);
-  }
-  k*= -1;
+    }
+    k *= -1;
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, 0.2* 62500);
 }
 
-void subscription_callback_diy(const void * msgin)
+void subscription_callback_diy(const void *msgin_diy)
 {
-  // Cast received message to used type
-  const std_msgs__msg__Int32 * msg = (const std_msgs__msg__Int32 *)msgin;
+    // Cast received message to used type
+    const std_msgs__msg__Int32 *msg_diy = (const std_msgs__msg__Int32 *)msgin_diy;
 
-  // Process message
-  printf("Received: %d\n", msg->data);
-  if(k>0){
-        gpio_set_dir(LED_PIN, 1);
-  }
-  else{
-        gpio_set_dir(LED_PIN, 0);
-  }
-  k*= -1;
+    float _value = (float)msg_diy->data / 100 ;
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, _value * 62500);
+
 }
 
 
@@ -101,6 +100,16 @@ int main()
 
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
+
+    int wrap;
+    int GPIO_motor_pwm = 6;
+    gpio_set_function(GPIO_motor_pwm, GPIO_FUNC_PWM);
+    slice_num = pwm_gpio_to_slice_num(GPIO_motor_pwm);
+    wrap = 62500; // 2khz
+    // wrap = 12500 ; //should be 10 khz right
+    pwm_set_wrap(slice_num, wrap);
+    pwm_set_enabled(slice_num, true);
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, 0.5 * 62500);
 
     rcl_timer_t timer;
     rcl_node_t node;
@@ -131,31 +140,29 @@ int main()
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "pico_publisher_base");
 
-    rclc_timer_init_default(
-        &timer,
-        &support,
-        RCL_MS_TO_NS(1000),
-        timer_callback);
-
     rclc_publisher_init_default(
         &publisher_diy,
         &node,
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "pico_publisher_diy");
 
-    // create subscriber
     rclc_subscription_init_default(
         &subscriber_base,
         &node,
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "subscriber_base");
 
-    // create subscriber
     rclc_subscription_init_default(
         &subscriber_diy,
         &node,
         ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, Int32),
         "subscriber_diy");
+
+    rclc_timer_init_default(
+        &timer,
+        &support,
+        RCL_MS_TO_NS(1000),
+        timer_callback);
 
     rclc_executor_init(&executor, &support.context, 5, &allocator);
     rclc_executor_add_timer(&executor, &timer);
@@ -168,16 +175,6 @@ int main()
     msg_base.data = 0;
 
     msg_diy.data = 1;
-
-    int wrap;
-    int GPIO_motor_pwm = 6;
-    gpio_set_function(GPIO_motor_pwm, GPIO_FUNC_PWM);
-    uint slice_num = pwm_gpio_to_slice_num(GPIO_motor_pwm);
-    wrap = 62500; // 2khz
-    // wrap = 12500 ; //should be 10 khz right
-    pwm_set_wrap(slice_num, wrap);
-    pwm_set_enabled(slice_num, true);
-    pwm_set_chan_level(slice_num, PWM_CHAN_A, 0.5 * 62500);
 
     while (true)
     {
