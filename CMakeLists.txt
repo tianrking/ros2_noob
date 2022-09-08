@@ -3,18 +3,30 @@ cmake_minimum_required(VERSION 3.12)
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 project(pico_micro_ros_example C CXX ASM)
+# project(pico_micro_ros_example)
+
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 
 link_directories(libmicroros)
+
 add_executable(pico_micro_ros_example
     pico_micro_ros_example.c
     pico_uart_transport.c
 )
+
+pico_generate_pio_header(pico_micro_ros_example ${CMAKE_CURRENT_LIST_DIR}/quadrature_encoder.pio)
+
+
+# target_sources(pico_micro_ros_example PRIVATE pico_micro_ros_example.cpp)
+
 target_link_libraries(pico_micro_ros_example
     pico_stdlib
+    pico_multicore
+    hardware_pio
+    hardware_pwm
     microros
 )
 
