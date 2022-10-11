@@ -1,0 +1,135 @@
+[0.033s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition': AMENT_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition LD_LIBRARY_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.034s] UpdateCTestConfiguration  from :/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.034s] Parse Config file:/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.034s]    Site: ubuntu22
+[0.034s]    Build name: (empty)
+[0.034s]  Add coverage exclude regular expressions.
+[0.034s] Create new tag: 20221009-0624 - Experimental
+[0.034s] UpdateCTestConfiguration  from :/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.034s] Parse Config file:/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/CTestConfiguration.ini
+[0.034s] Test project /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition
+[0.035s] Constructing a list of tests
+[0.035s] Done constructing a list of tests
+[0.035s] Updating test list for fixtures
+[0.035s] Added 0 tests to meet fixture requirements
+[0.035s] Checking test dependency graph...
+[0.035s] Checking test dependency graph end
+[0.035s] test 1
+[0.035s]     Start 1: copyright
+[0.035s] 
+[0.035s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml"
+[0.035s] 1: Test timeout computed to be: 200
+[0.096s] 1: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.097s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml
+[0.299s] 1: No problems found, checked 8 files
+[0.314s] 1: -- run_test.py: return code 0
+[0.315s] 1: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/copyright.xunit.xml'
+[0.318s] 1/6 Test #1: copyright ........................   Passed    0.28 sec
+[0.318s] test 2
+[0.318s]     Start 2: cppcheck
+[0.318s] 
+[0.318s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml" "--include_dirs" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include"
+[0.318s] 2: Test timeout computed to be: 300
+[0.359s] 2: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.359s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml --include_dirs /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include
+[0.422s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.437s] 2: -- run_test.py: return code 0
+[0.438s] 2: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cppcheck.xunit.xml'
+[0.441s] 2/6 Test #2: cppcheck .........................   Passed    0.12 sec
+[0.441s] test 3
+[0.441s]     Start 3: cpplint
+[0.441s] 
+[0.441s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml"
+[0.441s] 3: Test timeout computed to be: 120
+[0.500s] 3: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.500s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml
+[0.631s] 3: Using '--root=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include' argument
+[0.632s] 3: 
+[0.632s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/publisher_node.hpp
+[0.632s] 3: 
+[0.632s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/subscriber_node.hpp
+[0.632s] 3: 
+[0.632s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/include/minimal_composition/visibility.h
+[0.632s] 3: 
+[0.632s] 3: Using '--root=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src' argument
+[0.632s] 3: 
+[0.632s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src/composed.cpp
+[0.632s] 3: 
+[0.633s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src/publisher_node.cpp
+[0.633s] 3: 
+[0.633s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_publisher.cpp
+[0.633s] 3: 
+[0.633s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src/standalone_subscriber.cpp
+[0.633s] 3: 
+[0.633s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition/src/subscriber_node.cpp
+[0.633s] 3: 
+[0.633s] 3: No problems found
+[0.644s] 3: -- run_test.py: return code 0
+[0.651s] 3: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/cpplint.xunit.xml'
+[0.652s] 3/6 Test #3: cpplint ..........................   Passed    0.21 sec
+[0.652s] test 4
+[0.652s]     Start 4: lint_cmake
+[0.653s] 
+[0.653s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml"
+[0.653s] 4: Test timeout computed to be: 60
+[0.696s] 4: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.696s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml
+[0.751s] 4: 
+[0.751s] 4: No problems found
+[0.761s] 4: -- run_test.py: return code 0
+[0.762s] 4: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/lint_cmake.xunit.xml'
+[0.769s] 4/6 Test #4: lint_cmake .......................   Passed    0.12 sec
+[0.770s] test 5
+[0.770s]     Start 5: uncrustify
+[0.770s] 
+[0.771s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml"
+[0.771s] 5: Test timeout computed to be: 60
+[0.810s] 5: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.810s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml
+[0.867s] 5: No code style divergence in file 'include/minimal_composition/publisher_node.hpp'
+[0.867s] 5: 
+[0.868s] 5: No code style divergence in file 'include/minimal_composition/subscriber_node.hpp'
+[0.868s] 5: 
+[0.868s] 5: No code style divergence in file 'include/minimal_composition/visibility.h'
+[0.868s] 5: 
+[0.868s] 5: No code style divergence in file 'src/composed.cpp'
+[0.868s] 5: 
+[0.868s] 5: No code style divergence in file 'src/publisher_node.cpp'
+[0.869s] 5: 
+[0.869s] 5: No code style divergence in file 'src/standalone_publisher.cpp'
+[0.869s] 5: 
+[0.869s] 5: No code style divergence in file 'src/standalone_subscriber.cpp'
+[0.869s] 5: 
+[0.869s] 5: No code style divergence in file 'src/subscriber_node.cpp'
+[0.870s] 5: 
+[0.870s] 5: No problems found
+[0.878s] 5: -- run_test.py: return code 0
+[0.878s] 5: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/uncrustify.xunit.xml'
+[0.886s] 5/6 Test #5: uncrustify .......................   Passed    0.12 sec
+[0.886s] test 6
+[0.886s]     Start 6: xmllint
+[0.886s] 
+[0.886s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml" "--package-name" "examples_rclcpp_minimal_composition" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml"
+[0.886s] 6: Test timeout computed to be: 60
+[0.924s] 6: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/composition/minimal_composition':
+[0.925s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml
+[1.596s] 6: File 'package.xml' is valid
+[1.596s] 6: 
+[1.596s] 6: No problems found
+[1.604s] 6: -- run_test.py: return code 0
+[1.604s] 6: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition/test_results/examples_rclcpp_minimal_composition/xmllint.xunit.xml'
+[1.612s] 6/6 Test #6: xmllint ..........................   Passed    0.73 sec
+[1.612s] 
+[1.613s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[1.613s] 
+[1.613s] Label Time Summary:
+[1.613s] copyright     =   0.28 sec*proc (1 test)
+[1.614s] cppcheck      =   0.12 sec*proc (1 test)
+[1.614s] cpplint       =   0.21 sec*proc (1 test)
+[1.614s] lint_cmake    =   0.12 sec*proc (1 test)
+[1.614s] linter        =   1.58 sec*proc (6 tests)
+[1.614s] uncrustify    =   0.12 sec*proc (1 test)
+[1.614s] xmllint       =   0.73 sec*proc (1 test)
+[1.614s] 
+[1.614s] Total Test time (real) =   1.58 sec
+[1.617s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_minimal_composition' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition LD_LIBRARY_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_minimal_composition/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

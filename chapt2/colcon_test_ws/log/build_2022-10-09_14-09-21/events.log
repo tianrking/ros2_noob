@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000669] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000711] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000736] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000748] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000756] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000766] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000775] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000784] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000792] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000800] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.000809] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.000829] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.000850] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.000871] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.000891] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000916] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000938] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.000948] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000958] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.000972] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000981] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.000989] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.000998] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.004901] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.008746] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.008918] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/services/async_client', '-DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_async_client'], 'cwd': '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_async_client', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'w0x7ce'), ('SSH_CLIENT', '192.168.151.1 22724 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/w0x7ce'), ('OLDPWD', '/home/w0x7ce/Desktop/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.72.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e9244154-a9be-4f8a-ac66-36a81c9e75b8.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'w0x7ce'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('PATH', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4126066c2b.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_async_client'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.151.1 22724 192.168.151.130 22'), ('COLCON', '1')]), 'shell': False}
+[0.019294] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.020134] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/executors/cbg_executor', '-DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_cbg_executor'], 'cwd': '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_HK:en'), ('USER', 'w0x7ce'), ('SSH_CLIENT', '192.168.151.1 22724 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('BROWSER', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/w0x7ce'), ('OLDPWD', '/home/w0x7ce/Desktop/d2lros2/chapt2'), ('TERM_PROGRAM_VERSION', '1.72.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e9244154-a9be-4f8a-ac66-36a81c9e75b8.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('LOGNAME', 'w0x7ce'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('PATH', '/home/w0x7ce/.vscode-server/bin/64bbfbf67ada9953918d72e1df2f4d8e537d340e/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4126066c2b.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_cbg_executor'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.151.1 22724 192.168.151.130 22'), ('COLCON', '1')]), 'shell': False}
+[0.070129] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.084752] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.100983] (-) TimerEvent: {}
+[0.116691] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.121202] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.127314] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.134327] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.189869] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.194810] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.195057] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.195102] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199280] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.201043] (-) TimerEvent: {}
+[0.203252] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.208925] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.209121] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.209400] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.211933] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.268699] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.277471] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.277592] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.277633] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.288640] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.288775] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.288817] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.288853] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.288888] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\n'}
+[0.288922] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.288958] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  any of the following names:\n'}
+[0.288992] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\n'}
+[0.289025] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.289059] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.289094] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\n'}
+[0.289127] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.289160] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.289193] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.289225] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'  has been installed.\n'}
+[0.289267] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\n'}
+[0.289300] (examples_rclcpp_cbg_executor) StderrLine: {'line': b'\x1b[0m\n'}
+[0.289334] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.289384] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'See also "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_cbg_executor/CMakeFiles/CMakeOutput.log".\n'}
+[0.289425] (examples_rclcpp_cbg_executor) CommandEnded: {'returncode': 1}
+[0.289670] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299113] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.299235] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.299305] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.302655] (-) TimerEvent: {}
+[0.312363] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.312635] (examples_rclcpp_async_client) StdoutLine: {'line': b'See also "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_async_client/CMakeFiles/CMakeOutput.log".\n'}
+[0.312684] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.312748] (examples_rclcpp_async_client) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.312790] (examples_rclcpp_async_client) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.312830] (examples_rclcpp_async_client) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.312866] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[0.312904] (examples_rclcpp_async_client) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.312941] (examples_rclcpp_async_client) StderrLine: {'line': b'  any of the following names:\n'}
+[0.312978] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[0.313014] (examples_rclcpp_async_client) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.313050] (examples_rclcpp_async_client) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.313085] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[0.313120] (examples_rclcpp_async_client) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.313157] (examples_rclcpp_async_client) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.313193] (examples_rclcpp_async_client) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.313229] (examples_rclcpp_async_client) StderrLine: {'line': b'  has been installed.\n'}
+[0.313265] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[0.313301] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[0m\n'}
+[0.319600] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 1}
+[0.322383] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 'SIGINT'}
+[0.333237] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.333676] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.333719] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.333731] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.333742] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.333751] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.333762] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.333782] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.333792] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.333802] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[0.333811] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[0.333821] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.333830] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.333840] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.334046] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[0.334067] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.334078] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[0.334088] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.334097] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.334107] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[0.334124] (-) EventReactorShutdown: {}

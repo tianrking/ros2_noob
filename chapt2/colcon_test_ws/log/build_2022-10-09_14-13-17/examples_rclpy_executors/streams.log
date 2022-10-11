@@ -1,0 +1,59 @@
+[0.722s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/executors': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[0.897s] running egg_info
+[0.897s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[0.898s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[0.899s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[0.899s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[0.899s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[0.899s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.902s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.903s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[0.903s] running build
+[0.903s] running build_py
+[0.903s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build
+[0.903s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib
+[0.903s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.903s] copying examples_rclpy_executors/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.904s] copying examples_rclpy_executors/listener.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.904s] copying examples_rclpy_executors/callback_group.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.904s] copying examples_rclpy_executors/composed.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.905s] copying examples_rclpy_executors/custom_callback_group.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.905s] copying examples_rclpy_executors/talker.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.906s] copying examples_rclpy_executors/custom_executor.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[0.906s] running install
+[0.907s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.907s]   warnings.warn(
+[0.907s] running install_lib
+[0.908s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.908s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.908s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.908s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.908s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.908s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.909s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.909s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[0.909s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[0.910s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[0.910s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[0.911s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[0.911s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[0.912s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[0.912s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[0.913s] running install_data
+[0.913s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index
+[0.914s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index
+[0.914s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[0.914s] copying resource/examples_rclpy_executors -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[0.914s] copying package.xml -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/share/examples_rclpy_executors
+[0.914s] running install_egg_info
+[0.916s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.15.0-py3.10.egg-info
+[0.917s] running install_scripts
+[0.933s] Installing callback_group script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.934s] Installing composed script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.934s] Installing custom_callback_group script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.934s] Installing custom_executor script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.934s] Installing listener script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.934s] Installing talker script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[0.935s] writing list of installed files to '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log'
+[0.954s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_executors --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_executors/install.log --single-version-externally-managed

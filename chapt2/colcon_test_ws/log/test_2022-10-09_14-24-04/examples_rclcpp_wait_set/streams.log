@@ -1,0 +1,163 @@
+[0.053s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set': AMENT_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.061s] UpdateCTestConfiguration  from :/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.061s] Parse Config file:/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.061s]    Site: ubuntu22
+[0.061s]    Build name: (empty)
+[0.062s]  Add coverage exclude regular expressions.
+[0.063s] Create new tag: 20221009-0624 - Experimental
+[0.063s] UpdateCTestConfiguration  from :/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.063s] Parse Config file:/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/CTestConfiguration.ini
+[0.063s] Test project /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set
+[0.063s] Constructing a list of tests
+[0.063s] Done constructing a list of tests
+[0.064s] Updating test list for fixtures
+[0.064s] Added 0 tests to meet fixture requirements
+[0.066s] Checking test dependency graph...
+[0.066s] Checking test dependency graph end
+[0.066s] test 1
+[0.066s]     Start 1: copyright
+[0.066s] 
+[0.066s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml"
+[0.067s] 1: Test timeout computed to be: 200
+[0.111s] 1: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.112s] 1:  - /opt/ros/humble/bin/ament_copyright --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml
+[0.445s] 1: No problems found, checked 15 files
+[0.453s] 1: -- run_test.py: return code 0
+[0.457s] 1: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/copyright.xunit.xml'
+[0.460s] 1/6 Test #1: copyright ........................   Passed    0.40 sec
+[0.460s] test 2
+[0.460s]     Start 2: cppcheck
+[0.461s] 
+[0.461s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml" "--include_dirs" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include"
+[0.461s] 2: Test timeout computed to be: 300
+[0.505s] 2: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.505s] 2:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml --include_dirs /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include
+[0.563s] 2: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.578s] 2: -- run_test.py: return code 0
+[0.578s] 2: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cppcheck.xunit.xml'
+[0.579s] 2/6 Test #2: cppcheck .........................   Passed    0.12 sec
+[0.579s] test 3
+[0.579s]     Start 3: cpplint
+[0.579s] 
+[0.579s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml"
+[0.579s] 3: Test timeout computed to be: 120
+[0.632s] 3: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.632s] 3:  - /opt/ros/humble/bin/ament_cpplint --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml
+[0.871s] 3: Using '--root=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include' argument
+[0.871s] 3: 
+[0.871s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/listener.hpp
+[0.871s] 3: 
+[0.871s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/random_listener.hpp
+[0.872s] 3: 
+[0.872s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/random_talker.hpp
+[0.874s] 3: 
+[0.875s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/talker.hpp
+[0.875s] 3: 
+[0.875s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/include/wait_set/visibility.h
+[0.875s] 3: 
+[0.875s] 3: Using '--root=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src' argument
+[0.878s] 3: 
+[0.881s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/executor_random_order.cpp
+[0.882s] 3: 
+[0.882s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/listener.cpp
+[0.882s] 3: 
+[0.882s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/static_wait_set.cpp
+[0.883s] 3: 
+[0.883s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/talker.cpp
+[0.883s] 3: 
+[0.883s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/thread_safe_wait_set.cpp
+[0.883s] 3: 
+[0.883s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set.cpp
+[0.883s] 3: 
+[0.883s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_composed.cpp
+[0.884s] 3: 
+[0.884s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_random_order.cpp
+[0.885s] 3: 
+[0.885s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_and_timer.cpp
+[0.885s] 3: 
+[0.885s] 3: Done processing /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set/src/wait_set_topics_with_different_rates.cpp
+[0.885s] 3: 
+[0.885s] 3: No problems found
+[0.885s] 3: -- run_test.py: return code 0
+[0.886s] 3: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/cpplint.xunit.xml'
+[0.890s] 3/6 Test #3: cpplint ..........................   Passed    0.31 sec
+[0.890s] test 4
+[0.890s]     Start 4: lint_cmake
+[0.890s] 
+[0.891s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml"
+[0.891s] 4: Test timeout computed to be: 60
+[0.928s] 4: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[0.928s] 4:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml
+[0.974s] 4: 
+[0.978s] 4: No problems found
+[0.980s] 4: -- run_test.py: return code 0
+[0.980s] 4: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/lint_cmake.xunit.xml'
+[0.987s] 4/6 Test #4: lint_cmake .......................   Passed    0.10 sec
+[0.987s] test 5
+[0.987s]     Start 5: uncrustify
+[0.988s] 
+[0.988s] 5: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml"
+[0.988s] 5: Test timeout computed to be: 60
+[1.025s] 5: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[1.025s] 5:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml
+[1.096s] 5: No code style divergence in file 'include/wait_set/listener.hpp'
+[1.096s] 5: 
+[1.097s] 5: No code style divergence in file 'include/wait_set/random_listener.hpp'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'include/wait_set/random_talker.hpp'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'include/wait_set/talker.hpp'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'include/wait_set/visibility.h'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'src/executor_random_order.cpp'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'src/listener.cpp'
+[1.097s] 5: 
+[1.097s] 5: No code style divergence in file 'src/static_wait_set.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/talker.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/thread_safe_wait_set.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/wait_set.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/wait_set_composed.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/wait_set_random_order.cpp'
+[1.098s] 5: 
+[1.098s] 5: No code style divergence in file 'src/wait_set_topics_and_timer.cpp'
+[1.098s] 5: 
+[1.099s] 5: No code style divergence in file 'src/wait_set_topics_with_different_rates.cpp'
+[1.099s] 5: 
+[1.099s] 5: No problems found
+[1.109s] 5: -- run_test.py: return code 0
+[1.109s] 5: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/uncrustify.xunit.xml'
+[1.113s] 5/6 Test #5: uncrustify .......................   Passed    0.13 sec
+[1.114s] test 6
+[1.114s]     Start 6: xmllint
+[1.114s] 
+[1.114s] 6: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml" "--package-name" "examples_rclcpp_wait_set" "--output-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml"
+[1.114s] 6: Test timeout computed to be: 60
+[1.153s] 6: -- run_test.py: invoking following command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclcpp/wait_set':
+[1.154s] 6:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml
+[1.692s] 6: File 'package.xml' is valid
+[1.692s] 6: 
+[1.692s] 6: No problems found
+[1.701s] 6: -- run_test.py: return code 0
+[1.701s] 6: -- run_test.py: verify result file '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set/test_results/examples_rclcpp_wait_set/xmllint.xunit.xml'
+[1.702s] 6/6 Test #6: xmllint ..........................   Passed    0.59 sec
+[1.702s] 
+[1.702s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 6
+[1.703s] 
+[1.703s] Label Time Summary:
+[1.704s] copyright     =   0.40 sec*proc (1 test)
+[1.705s] cppcheck      =   0.12 sec*proc (1 test)
+[1.707s] cpplint       =   0.31 sec*proc (1 test)
+[1.707s] lint_cmake    =   0.10 sec*proc (1 test)
+[1.708s] linter        =   1.63 sec*proc (6 tests)
+[1.708s] uncrustify    =   0.13 sec*proc (1 test)
+[1.708s] xmllint       =   0.59 sec*proc (1 test)
+[1.709s] 
+[1.709s] Total Test time (real) =   1.64 sec
+[1.709s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclcpp_wait_set' returned '0': AMENT_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set LD_LIBRARY_PATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclcpp_wait_set/lib:${LD_LIBRARY_PATH} /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

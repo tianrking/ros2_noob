@@ -1,0 +1,47 @@
+[0.528s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/topics/minimal_subscriber': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed
+[0.709s] running egg_info
+[0.710s] creating ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info
+[0.711s] writing ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[0.716s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[0.717s] writing entry points to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[0.717s] writing requirements to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[0.720s] writing top-level names to ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[0.721s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.735s] reading manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running build_py
+[0.736s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build
+[0.736s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib
+[0.736s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.736s] copying examples_rclpy_minimal_subscriber/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.737s] copying examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.742s] copying examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.742s] copying examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber
+[0.743s] running install
+[0.743s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.743s]   warnings.warn(
+[0.744s] running install_lib
+[0.745s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.745s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.745s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_old_school.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.745s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_lambda.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.745s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build/lib/examples_rclpy_minimal_subscriber/subscriber_member_function.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber
+[0.745s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/__init__.py to __init__.cpython-310.pyc
+[0.745s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_old_school.py to subscriber_old_school.cpython-310.pyc
+[0.746s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_lambda.py to subscriber_lambda.cpython-310.pyc
+[0.746s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.747s] running install_data
+[0.747s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/share/ament_index
+[0.747s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index
+[0.747s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.748s] copying resource/examples_rclpy_minimal_subscriber -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages
+[0.748s] copying package.xml -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber
+[0.748s] running install_egg_info
+[0.749s] Copying ../../../../../build/examples_rclpy_minimal_subscriber/examples_rclpy_minimal_subscriber.egg-info to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples_rclpy_minimal_subscriber-0.15.0-py3.10.egg-info
+[0.749s] running install_scripts
+[0.764s] Installing subscriber_lambda script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.764s] Installing subscriber_member_function script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.764s] Installing subscriber_old_school script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.764s] writing list of installed files to '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/install.log'
+[0.781s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/topics/minimal_subscriber' returned '0': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_subscriber build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_subscriber --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_subscriber/install.log --single-version-externally-managed

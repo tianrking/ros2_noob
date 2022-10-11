@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp
+[0.029s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.172s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.172s]   By not providing "Findrclcpp..cmake" in CMAKE_MODULE_PATH this project has
+[0.172s]   asked CMake to find a package configuration file provided by "rclcpp.", but
+[0.173s]   CMake did not find one.
+[0.173s] 
+[0.173s]   Could not find a package configuration file provided by "rclcpp." with any
+[0.173s]   of the following names:
+[0.173s] 
+[0.173s]     rclcpp.Config.cmake
+[0.173s]     rclcpp.-config.cmake
+[0.173s] 
+[0.173s]   Add the installation prefix of "rclcpp." to CMAKE_PREFIX_PATH or set
+[0.173s]   "rclcpp._DIR" to a directory containing one of the above files.  If
+[0.173s]   "rclcpp." provides a separate development package or SDK, be sure it has
+[0.173s]   been installed.
+[0.173s] 
+[0.174s] [0m
+[0.174s] -- Configuring incomplete, errors occurred!
+[0.174s] See also "/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp/CMakeFiles/CMakeOutput.log".
+[0.177s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/src/example_cpp -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp

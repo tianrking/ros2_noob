@@ -1,0 +1,43 @@
+[0.414s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[0.601s] running egg_info
+[0.603s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[0.605s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.605s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.605s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.605s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[0.605s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.605s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.612s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.614s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.615s] running build
+[0.615s] running build_py
+[0.616s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build
+[0.616s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib
+[0.616s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.617s] copying examples_rclpy_minimal_service/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.617s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.618s] copying examples_rclpy_minimal_service/service.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[0.618s] running install
+[0.619s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.619s]   warnings.warn(
+[0.619s] running install_lib
+[0.620s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.620s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.620s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.621s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[0.621s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[0.622s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[0.622s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[0.622s] running install_data
+[0.623s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index
+[0.623s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[0.623s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.624s] copying resource/examples_rclpy_minimal_service -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[0.624s] copying package.xml -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[0.624s] running install_egg_info
+[0.625s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.15.0-py3.10.egg-info
+[0.626s] running install_scripts
+[0.643s] Installing service script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.643s] Installing service_member_function script to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.644s] writing list of installed files to '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/install.log'
+[0.667s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/examples_rclpy_minimal_service --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp -- -j2 -l2
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target node_01[0m
+[0.060s] [ 50%] [32mBuilding CXX object CMakeFiles/node_01.dir/src/node_01.cpp.o[0m
+[2.210s] [100%] [32m[1mLinking CXX executable node_01[0m
+[2.282s] [100%] Built target node_01
+[2.294s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp -- -j2 -l2
+[2.315s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp
+[2.323s] -- Install configuration: ""
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/ament_index/resource_index/package_run_dependencies/example_cpp
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/ament_index/resource_index/parent_prefix_path/example_cpp
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.sh
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/environment/ament_prefix_path.dsv
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.sh
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/environment/path.dsv
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.bash
+[2.323s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.sh
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.zsh
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/local_setup.dsv
+[2.324s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/package.dsv
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/ament_index/resource_index/packages/example_cpp
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig.cmake
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/cmake/example_cppConfig-version.cmake
+[2.324s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/share/example_cpp/package.xml
+[2.324s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/lib/example_cpp/node_01
+[2.324s] -- Set runtime path of "/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/install/example_cpp/lib/example_cpp/node_01" to ""
+[2.331s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt2/chapt2_ws/chapt2_ws/build/example_cpp

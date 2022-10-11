@@ -1,0 +1,10 @@
+[0.006s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j2 -l2
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o[0m
+[0.186s] [01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp/src/topic_publisher_01.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.186s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.186s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.186s] compilation terminated.
+[0.189s] gmake[2]: *** [CMakeFiles/topic_publisher_01.dir/build.make:76: CMakeFiles/topic_publisher_01.dir/src/topic_publisher_01.cpp.o] Error 1
+[0.189s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/topic_publisher_01.dir/all] Error 2
+[0.189s] gmake: *** [Makefile:146: all] Error 2
+[0.191s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j2 -l2

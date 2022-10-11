@@ -1,0 +1,53 @@
+[0.624s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/launch_testing/launch_testing_examples': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/install.log --single-version-externally-managed
+[0.800s] running egg_info
+[0.801s] creating ../../../../build/launch_testing_examples/launch_testing_examples.egg-info
+[0.801s] writing ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/PKG-INFO
+[0.802s] writing dependency_links to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/dependency_links.txt
+[0.802s] writing entry points to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/entry_points.txt
+[0.802s] writing requirements to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/requires.txt
+[0.802s] writing top-level names to ../../../../build/launch_testing_examples/launch_testing_examples.egg-info/top_level.txt
+[0.803s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[0.826s] reading manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[0.835s] writing manifest file '../../../../build/launch_testing_examples/launch_testing_examples.egg-info/SOURCES.txt'
+[0.837s] running build
+[0.837s] running build_py
+[0.839s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build
+[0.839s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib
+[0.839s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.839s] copying launch_testing_examples/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.840s] copying launch_testing_examples/hello_world_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.840s] copying launch_testing_examples/set_param_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.841s] copying launch_testing_examples/record_rosbag_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.842s] copying launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.842s] copying launch_testing_examples/check_msgs_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.843s] copying launch_testing_examples/check_node_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples
+[0.844s] running install
+[0.844s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.844s]   warnings.warn(
+[0.845s] running install_lib
+[0.846s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.846s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/__init__.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.846s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/hello_world_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.846s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/set_param_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.847s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/record_rosbag_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.847s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_multiple_nodes_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.847s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_msgs_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.847s] copying /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build/lib/launch_testing_examples/check_node_launch_test.py -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples
+[0.848s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/__init__.py to __init__.cpython-310.pyc
+[0.848s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/hello_world_launch_test.py to hello_world_launch_test.cpython-310.pyc
+[0.849s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/set_param_launch_test.py to set_param_launch_test.cpython-310.pyc
+[0.849s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/record_rosbag_launch_test.py to record_rosbag_launch_test.cpython-310.pyc
+[0.850s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_multiple_nodes_launch_test.py to check_multiple_nodes_launch_test.cpython-310.pyc
+[0.851s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_msgs_launch_test.py to check_msgs_launch_test.cpython-310.pyc
+[0.851s] byte-compiling /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples/check_node_launch_test.py to check_node_launch_test.cpython-310.pyc
+[0.852s] running install_data
+[0.852s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/share/ament_index
+[0.852s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/share/ament_index/resource_index
+[0.852s] creating /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[0.853s] copying resource/launch_testing_examples -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/share/ament_index/resource_index/packages
+[0.853s] copying package.xml -> /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/share/launch_testing_examples
+[0.853s] running install_egg_info
+[0.855s] Copying ../../../../build/launch_testing_examples/launch_testing_examples.egg-info to /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages/launch_testing_examples-0.15.0-py3.10.egg-info
+[0.856s] running install_scripts
+[0.871s] writing list of installed files to '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/install.log'
+[0.890s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/src/examples/launch_testing/launch_testing_examples' returned '0': PYTHONPATH=/home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing_examples build --build-base /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/build install --prefix /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/install/launch_testing_examples --record /home/w0x7ce/Desktop/d2lros2/chapt2/colcon_test_ws/build/launch_testing_examples/install.log --single-version-externally-managed

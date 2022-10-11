@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findstd_msgss.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "std_msgss", but CMake did not find one.
+
+  Could not find a package configuration file provided by "std_msgss" with
+  any of the following names:
+
+    std_msgssConfig.cmake
+    std_msgss-config.cmake
+
+  Add the installation prefix of "std_msgss" to CMAKE_PREFIX_PATH or set
+  "std_msgss_DIR" to a directory containing one of the above files.  If
+  "std_msgss" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1
