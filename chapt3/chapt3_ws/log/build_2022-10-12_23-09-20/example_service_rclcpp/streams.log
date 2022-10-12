@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[0.077s] [ 50%] Built target service_server_01
+[0.102s] [100%] Built target service_client_01
+[0.137s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.167s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[0.175s] -- Install configuration: ""
+[0.175s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[0.176s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[0.180s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[0.180s] -- Set runtime path of "/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01" to ""
+[0.194s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp

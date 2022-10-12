@@ -25,10 +25,17 @@ endif()
 ament_package()
 
 add_executable(topic_publisher_01 src/topic_publisher_01.cpp)
-ament_target_dependencies(topic_publisher_01 rclcpp)  ##
+add_executable(topic_subscribe_01 src/topic_subscribe_01.cpp)
+# ament_target_dependencies(topic_publisher_01 rclcpp)  ##
 ament_target_dependencies(topic_publisher_01 rclcpp std_msgs) ##
+ament_target_dependencies(topic_subscribe_01 rclcpp std_msgs) ##
 
 install(TARGETS
   topic_publisher_01
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+topic_subscribe_01
   DESTINATION lib/${PROJECT_NAME}
 )

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o[0m
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/src/example_service_rclcpp/src/service_client_01.cpp:18:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ServiceClient01[m[K’ {aka ‘[01m[Kclass ServiceClient01[m[K’} has no member named ‘[01m[Ksend_request[m[K’
+   18 |   node->[01;31m[Ksend_request[m[K(5, 6);
+      |         [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/service_client_01.dir/build.make:76: CMakeFiles/service_client_01.dir/src/service_client_01.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_client_01.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable service_server_01[0m
+[ 75%] Built target service_server_01
+gmake: *** [Makefile:146: all] Error 2

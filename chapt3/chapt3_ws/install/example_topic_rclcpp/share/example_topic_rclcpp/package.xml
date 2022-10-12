@@ -4,7 +4,7 @@
   <name>example_topic_rclcpp</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="w0x7ce@todo.todo">w0x7ce</maintainer>
+  <maintainer email="me@w0x7ce.eu">w0x7ce</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

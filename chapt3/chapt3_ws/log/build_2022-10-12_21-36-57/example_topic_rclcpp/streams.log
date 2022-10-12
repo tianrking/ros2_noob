@@ -1,0 +1,6 @@
+[0.010s] Invoking command in '/home/w0x7ce/桌面/learn_rclcpp/chapt3/chapt3_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/桌面/learn_rclcpp/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4
+[0.192s] [0mCMake Error: The current CMakeCache.txt directory /home/w0x7ce/桌面/learn_rclcpp/chapt3/chapt3_ws/build/example_topic_rclcpp/CMakeCache.txt is different than the directory /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_topic_rclcpp where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.261s] [0mCMake Error: The source directory "/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/src/example_topic_rclcpp" does not exist.
+[0.261s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.268s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.275s] Invoked command in '/home/w0x7ce/桌面/learn_rclcpp/chapt3/chapt3_ws/build/example_topic_rclcpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/w0x7ce/桌面/learn_rclcpp/chapt3/chapt3_ws/build/example_topic_rclcpp -- -j4 -l4

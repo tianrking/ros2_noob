@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "example_topic_rclcpp")
 set(example_topic_rclcpp_VERSION "0.0.0")
-set(example_topic_rclcpp_MAINTAINER "w0x7ce <w0x7ce@todo.todo>")
+set(example_topic_rclcpp_MAINTAINER "w0x7ce <me@w0x7ce.eu>")
 set(example_topic_rclcpp_BUILD_DEPENDS "rclcpp" "std_msgs")
 set(example_topic_rclcpp_BUILDTOOL_DEPENDS "ament_cmake")
 set(example_topic_rclcpp_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs")
