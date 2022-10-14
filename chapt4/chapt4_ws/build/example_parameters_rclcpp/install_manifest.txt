@@ -1,0 +1,16 @@
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/lib/example_parameters_rclcpp/parameters_basic
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_parameters_rclcpp
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_parameters_rclcpp
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.sh
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/ament_prefix_path.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.sh
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/environment/path.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.bash
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.sh
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.zsh
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/local_setup.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/ament_index/resource_index/packages/example_parameters_rclcpp
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig.cmake
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/cmake/example_parameters_rclcppConfig-version.cmake
+/home/w0x7ce/Desktop/d2lros2/chapt4/chapt4_ws/install/example_parameters_rclcpp/share/example_parameters_rclcpp/package.xml

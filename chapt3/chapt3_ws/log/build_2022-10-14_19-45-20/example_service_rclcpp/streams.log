@@ -1,0 +1,5 @@
+[0.044s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.099s] [ 50%] Built target service_client_01
+[0.105s] [ 75%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[3.244s] [100%] [32m[1mLinking CXX executable service_server_01[0m
+[3.394s] [100%] Built target service_server_01

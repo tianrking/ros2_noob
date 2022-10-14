@@ -1,0 +1,24 @@
+[0.041s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.090s] [ 50%] Built target service_client_01
+[0.099s] [100%] Built target service_server_01
+[0.113s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp -- -j4 -l4
+[0.173s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp
+[0.187s] -- Install configuration: ""
+[0.191s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[0.193s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[0.193s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[0.194s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[0.194s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[0.231s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/chapt3_ws/build/example_service_rclcpp

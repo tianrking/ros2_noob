@@ -1,0 +1,4 @@
+[ 50%] Built target service_client_01
+[ 75%] [32mBuilding CXX object CMakeFiles/service_server_01.dir/src/service_server_01.cpp.o[0m
+[100%] [32m[1mLinking CXX executable service_server_01[0m
+[100%] Built target service_server_01
