@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000192] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000612] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.029533] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.030935] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.031771] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'w0x7ce'), ('SSH_CLIENT', '192.168.7.170 48156 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/w0x7ce'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/w0x7ce/Desktop/d2lros2/chapt3'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5896e08b-a420-490e-b96c-45140944a2e5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'w0x7ce'), ('_', '/home/w0x7ce/anaconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '227'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/w0x7ce/anaconda3/bin:/home/w0x7ce/anaconda3/condabin:/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-414cb7fe8a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/w0x7ce/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/w0x7ce/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.7.170 48156 192.168.7.84 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('CONDA_PREFIX', '/home/w0x7ce/anaconda3'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.062731] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099792] (-) TimerEvent: {}
+[0.200092] (-) TimerEvent: {}
+[0.300351] (-) TimerEvent: {}
+[0.374503] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400448] (-) TimerEvent: {}
+[0.500714] (-) TimerEvent: {}
+[0.601013] (-) TimerEvent: {}
+[0.701292] (-) TimerEvent: {}
+[0.801577] (-) TimerEvent: {}
+[0.890701] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.901671] (-) TimerEvent: {}
+[0.905587] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.921929] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.994552] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001767] (-) TimerEvent: {}
+[1.025335] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101880] (-) TimerEvent: {}
+[1.177966] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.196504] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201955] (-) TimerEvent: {}
+[1.302185] (-) TimerEvent: {}
+[1.402438] (-) TimerEvent: {}
+[1.444607] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.486190] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.502532] (-) TimerEvent: {}
+[1.558462] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.602628] (-) TimerEvent: {}
+[1.702847] (-) TimerEvent: {}
+[1.749898] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.798975] (cpp_pubsub) StderrLine: {'line': b"Error parsing '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml':\n"}
+[1.802959] (-) TimerEvent: {}
+[1.841772] (cpp_pubsub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.842016] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.842113] (cpp_pubsub) StderrLine: {'line': b'    main()\n'}
+[1.842189] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.842263] (cpp_pubsub) StderrLine: {'line': b'    raise e\n'}
+[1.842335] (cpp_pubsub) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.842479] (cpp_pubsub) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.842593] (cpp_pubsub) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 639, in parse_package_string\n'}
+[1.842684] (cpp_pubsub) StderrLine: {'line': b"    pkg.description = _get_node_value(_get_node(root, 'description', filename), allow_xml=True, apply_str=False)\n"}
+[1.842760] (cpp_pubsub) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 800, in _get_node\n'}
+[1.842895] (cpp_pubsub) StderrLine: {'line': b'    raise InvalidPackage(\'The manifest must contain exactly one "%s" tag\' % tagname, filename)\n'}
+[1.842968] (cpp_pubsub) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml':\n"}
+[1.843041] (cpp_pubsub) StderrLine: {'line': b'The manifest must contain exactly one "description" tag\n'}
+[1.861295] (cpp_pubsub) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.861954] (cpp_pubsub) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10\n'}
+[1.862205] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.862433] (cpp_pubsub) StderrLine: {'line': b'  /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml\n'}
+[1.862654] (cpp_pubsub) StderrLine: {'line': b'  /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub/ament_cmake_core/package.cmake)\n'}
+[1.862895] (cpp_pubsub) StderrLine: {'line': b'  returned error code 1\n'}
+[1.863117] (cpp_pubsub) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.863334] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.863550] (cpp_pubsub) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.863768] (cpp_pubsub) StderrLine: {'line': b'  CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)\n'}
+[1.864233] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.864305] (cpp_pubsub) StderrLine: {'line': b'\x1b[0m\n'}
+[1.864373] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.864448] (cpp_pubsub) StdoutLine: {'line': b'See also "/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[1.869244] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:226: cmake_check_build_system] Error 1\n'}
+[1.871268] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[1.871831] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[1.881899] (-) EventReactorShutdown: {}

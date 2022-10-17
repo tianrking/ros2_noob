@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.086s] [ 50%] Built target talker
+[0.093s] [100%] Built target listener
+[0.111s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.169s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub
+[0.176s] -- Install configuration: ""
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/listener
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[0.178s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[0.179s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[0.182s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub

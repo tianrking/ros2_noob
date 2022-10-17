@@ -1,0 +1,26 @@
+[0.040s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli -- -j4 -l4
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.079s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.098s] [ 50%] Built target server
+[0.109s] [100%] Built target client
+[0.123s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli -- -j4 -l4
+[0.168s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli
+[0.175s] -- Install configuration: ""
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/server
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/client
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[0.176s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[0.177s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[0.177s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[0.178s] -- Up-to-date: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[0.181s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli

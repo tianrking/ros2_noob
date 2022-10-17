@@ -1,0 +1,47 @@
+[0.075s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub
+[0.779s] -- The C compiler identification is GNU 11.2.0
+[1.204s] -- The CXX compiler identification is GNU 11.2.0
+[1.254s] -- Detecting C compiler ABI info
+[1.449s] -- Detecting C compiler ABI info - done
+[1.449s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.450s] -- Detecting C compile features
+[1.499s] -- Detecting C compile features - done
+[1.515s] -- Detecting CXX compiler ABI info
+[1.641s] -- Detecting CXX compiler ABI info - done
+[1.643s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.643s] -- Detecting CXX compile features
+[1.644s] -- Detecting CXX compile features - done
+[1.708s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.128s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.388s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.563s] -- Configured cppcheck include dirs: 
+[2.563s] -- Configured cppcheck exclude dirs and/or files: 
+[2.565s] -- Added test 'lint_cmake' to check CMake code style
+[2.570s] -- Added test 'uncrustify' to check C / C++ code style
+[2.570s] -- Configured uncrustify additional arguments: 
+[2.571s] -- Added test 'xmllint' to check XML markup files
+[2.617s] -- Configuring done
+[2.631s] -- Generating done
+[2.632s] -- Build files have been written to: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub
+[2.639s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub
+[2.640s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[2.672s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[2.704s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub
+[2.714s] -- Install configuration: ""
+[2.714s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.714s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.715s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.716s] -- Installing: /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.721s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub

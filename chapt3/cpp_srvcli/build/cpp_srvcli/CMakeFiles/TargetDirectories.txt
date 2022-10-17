@@ -1,0 +1,11 @@
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/uninstall.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/server.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/client.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/test.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/edit_cache.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/list_install_components.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/install.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/install/local.dir
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/build/cpp_srvcli/CMakeFiles/install/strip.dir

@@ -1,0 +1,17 @@
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/server
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_srvcli/install/cpp_srvcli/share/cpp_srvcli/package.xml

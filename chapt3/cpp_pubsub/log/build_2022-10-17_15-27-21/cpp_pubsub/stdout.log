@@ -1,0 +1,4 @@
+-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".

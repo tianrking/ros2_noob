@@ -1,0 +1,42 @@
+[0.025s] Invoking command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4
+[0.045s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] -- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)
+[0.207s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.210s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.216s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.579s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.626s] Error parsing '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml':
+[0.667s] Traceback (most recent call last):
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.667s]     main()
+[0.667s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.667s]     raise e
+[0.668s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.668s]     package = parse_package_string(
+[0.668s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 639, in parse_package_string
+[0.668s]     pkg.description = _get_node_value(_get_node(root, 'description', filename), allow_xml=True, apply_str=False)
+[0.668s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 800, in _get_node
+[0.668s]     raise InvalidPackage('The manifest must contain exactly one "%s" tag' % tagname, filename)
+[0.668s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml':
+[0.668s] The manifest must contain exactly one "description" tag
+[0.681s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.682s]   execute_process(/usr/bin/python3.10
+[0.682s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.682s]   /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/package.xml
+[0.682s]   /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub/ament_cmake_core/package.cmake)
+[0.682s]   returned error code 1
+[0.682s] Call Stack (most recent call first):
+[0.682s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.682s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.682s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[0.682s] 
+[0.682s] [0m
+[0.683s] -- Configuring incomplete, errors occurred!
+[0.683s] See also "/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".
+[0.688s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.690s] Invoked command in '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub' returned '2': CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub -- -j4 -l4

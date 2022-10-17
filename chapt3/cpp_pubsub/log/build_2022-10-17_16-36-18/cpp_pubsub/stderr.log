@@ -1,0 +1,55 @@
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:40:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   40 | int main(int argc, char *argv[][01;31m[K)[m[K
+      |                                [01;31m[K^[m[K
+      |                                 [32m[K;[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:21:[m[K [01;31m[Kerror: [m[Kexpected identifier
+   41 |   rclcpp::spin(std::[01;31m[Kmake_shared<MinimalPublisher>[m[K());
+      |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:50:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K([m[K’ token
+   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>[01;31m[K([m[K));
+      |                                                  [01;31m[K^[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K([m[K’ token
+   41 |   rclcpp::spin[34m[K([m[Kstd::make_shared<MinimalPublisher>[01;31m[K([m[K));
+      |               [34m[K~[m[K                                  [01;31m[K^[m[K
+      |                                                  [32m[K)[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kspin[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   41 |   [01;31m[Krclcpp[m[K::spin(std::make_shared<MinimalPublisher>());
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kspin[m[K’ declared as function returning a function
+   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>([01;31m[K)[m[K);
+      |                                                   [01;31m[K^[m[K
+      |                                                    [32m[K;[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:52:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>()[01;31m[K)[m[K;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:42:3:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kshutdown[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   42 |   [01;31m[Krclcpp[m[K::shutdown();
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:42:3:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[K::[m[K’
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:43:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+   43 |   [01;31m[Kreturn[m[K 0;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:44:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   44 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:18:32:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   18 |   : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:20:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K:[m[K’ token
+   20 |       [01;31m[K:[m[K Node("minimal_publisher"), count_(0)
+      |       [01;31m[K^[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:27:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+   27 | [01;31m[Kprivate[m[K:
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:37:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   37 |   size_t [01;35m[Kcount_[m[K;
+      |          [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

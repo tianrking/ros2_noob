@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.001545] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.001646] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.031332] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.032130] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[0.033148] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'w0x7ce'), ('SSH_CLIENT', '192.168.7.170 48156 22'), ('LC_TIME', 'zh_TW.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/w0x7ce'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/w0x7ce/Desktop/d2lros2/chapt3'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-5896e08b-a420-490e-b96c-45140944a2e5.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('COLCON_PREFIX_PATH', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'w0x7ce'), ('_', '/home/w0x7ce/anaconda3/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '227'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/w0x7ce/anaconda3/bin:/home/w0x7ce/anaconda3/condabin:/home/w0x7ce/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_TW.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_TW.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-414cb7fe8a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/w0x7ce/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_TW.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('LC_MEASUREMENT', 'zh_TW.UTF-8'), ('LC_IDENTIFICATION', 'zh_TW.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('CONDA_EXE', '/home/w0x7ce/anaconda3/bin/conda'), ('SSH_CONNECTION', '192.168.7.170 48156 192.168.7.84 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_TW.UTF-8'), ('CONDA_PREFIX', '/home/w0x7ce/anaconda3'), ('LC_PAPER', 'zh_TW.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.072293] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.085388] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.099243] (-) TimerEvent: {}
+[0.118326] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.199371] (-) TimerEvent: {}
+[0.299666] (-) TimerEvent: {}
+[0.400123] (-) TimerEvent: {}
+[0.500411] (-) TimerEvent: {}
+[0.600771] (-) TimerEvent: {}
+[0.701120] (-) TimerEvent: {}
+[0.802399] (-) TimerEvent: {}
+[0.902722] (-) TimerEvent: {}
+[1.003058] (-) TimerEvent: {}
+[1.103428] (-) TimerEvent: {}
+[1.203762] (-) TimerEvent: {}
+[1.305084] (-) TimerEvent: {}
+[1.406149] (-) TimerEvent: {}
+[1.506468] (-) TimerEvent: {}
+[1.607948] (-) TimerEvent: {}
+[1.708263] (-) TimerEvent: {}
+[1.808643] (-) TimerEvent: {}
+[1.908987] (-) TimerEvent: {}
+[2.009322] (-) TimerEvent: {}
+[2.109708] (-) TimerEvent: {}
+[2.210069] (-) TimerEvent: {}
+[2.310417] (-) TimerEvent: {}
+[2.410922] (-) TimerEvent: {}
+[2.453181] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:40:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.453439] (cpp_pubsub) StderrLine: {'line': b'   40 | int main(int argc, char *argv[]\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[2.453527] (cpp_pubsub) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.453597] (cpp_pubsub) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.453983] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected identifier\n'}
+[2.454083] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin(std::\x1b[01;31m\x1b[Kmake_shared<MinimalPublisher>\x1b[m\x1b[K());\n'}
+[2.454156] (cpp_pubsub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.454226] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.454293] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>\x1b[01;31m\x1b[K(\x1b[m\x1b[K));\n'}
+[2.454359] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.454428] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.454503] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin\x1b[34m\x1b[K(\x1b[m\x1b[Kstd::make_shared<MinimalPublisher>\x1b[01;31m\x1b[K(\x1b[m\x1b[K));\n'}
+[2.454569] (cpp_pubsub) StderrLine: {'line': b'      |               \x1b[34m\x1b[K~\x1b[m\x1b[K                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.454634] (cpp_pubsub) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[2.454698] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kspin\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.454766] (cpp_pubsub) StderrLine: {'line': b'   41 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::spin(std::make_shared<MinimalPublisher>());\n'}
+[2.454831] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.454895] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kspin\x1b[m\x1b[K\xe2\x80\x99 declared as function returning a function\n'}
+[2.454959] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.455022] (cpp_pubsub) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.455086] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.455151] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.455215] (cpp_pubsub) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.455278] (cpp_pubsub) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.455343] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:41:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.455409] (cpp_pubsub) StderrLine: {'line': b'   41 |   rclcpp::spin(std::make_shared<MinimalPublisher>()\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.455473] (cpp_pubsub) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.455538] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:42:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kshutdown\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.455614] (cpp_pubsub) StderrLine: {'line': b'   42 |   \x1b[01;31m\x1b[Krclcpp\x1b[m\x1b[K::shutdown();\n'}
+[2.455680] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.455745] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:42:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.455817] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:43:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kreturn\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.455885] (cpp_pubsub) StderrLine: {'line': b'   43 |   \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K 0;\n'}
+[2.455950] (cpp_pubsub) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.456145] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:44:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[2.456234] (cpp_pubsub) StderrLine: {'line': b'   44 | }\n'}
+[2.456300] (cpp_pubsub) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.456366] (cpp_pubsub) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.456429] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.456500] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:18:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.456567] (cpp_pubsub) StderrLine: {'line': b'   18 |   : Node("minimal_publisher"), \x1b[01;31m\x1b[Kcount_\x1b[m\x1b[K(0)\n'}
+[2.456632] (cpp_pubsub) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.456696] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.456761] (cpp_pubsub) StderrLine: {'line': b'   20 |       \x1b[01;31m\x1b[K:\x1b[m\x1b[K Node("minimal_publisher"), count_(0)\n'}
+[2.456825] (cpp_pubsub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.456890] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:27:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.456955] (cpp_pubsub) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[2.457019] (cpp_pubsub) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.458472] (cpp_pubsub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/w0x7ce/Desktop/d2lros2/chapt3/cpp_pubsub/src/publisher_member_function.cpp:37:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcount_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.458635] (cpp_pubsub) StderrLine: {'line': b'   37 |   size_t \x1b[01;35m\x1b[Kcount_\x1b[m\x1b[K;\n'}
+[2.458712] (cpp_pubsub) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.511077] (-) TimerEvent: {}
+[2.611773] (-) TimerEvent: {}
+[2.712104] (-) TimerEvent: {}
+[2.812693] (-) TimerEvent: {}
+[2.886558] (cpp_pubsub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[2.887046] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2\n'}
+[2.887284] (cpp_pubsub) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.912825] (-) TimerEvent: {}
+[3.013217] (-) TimerEvent: {}
+[3.113581] (-) TimerEvent: {}
+[3.213965] (-) TimerEvent: {}
+[3.314321] (-) TimerEvent: {}
+[3.414734] (-) TimerEvent: {}
+[3.515178] (-) TimerEvent: {}
+[3.615538] (-) TimerEvent: {}
+[3.715904] (-) TimerEvent: {}
+[3.816227] (-) TimerEvent: {}
+[3.916572] (-) TimerEvent: {}
+[4.016883] (-) TimerEvent: {}
+[4.117239] (-) TimerEvent: {}
+[4.217611] (-) TimerEvent: {}
+[4.317963] (-) TimerEvent: {}
+[4.418314] (-) TimerEvent: {}
+[4.518643] (-) TimerEvent: {}
+[4.618996] (-) TimerEvent: {}
+[4.719335] (-) TimerEvent: {}
+[4.819725] (-) TimerEvent: {}
+[4.920176] (-) TimerEvent: {}
+[5.020566] (-) TimerEvent: {}
+[5.120902] (-) TimerEvent: {}
+[5.221235] (-) TimerEvent: {}
+[5.321571] (-) TimerEvent: {}
+[5.421914] (-) TimerEvent: {}
+[5.522253] (-) TimerEvent: {}
+[5.622587] (-) TimerEvent: {}
+[5.722928] (-) TimerEvent: {}
+[5.823284] (-) TimerEvent: {}
+[5.923639] (-) TimerEvent: {}
+[6.023985] (-) TimerEvent: {}
+[6.124308] (-) TimerEvent: {}
+[6.224661] (-) TimerEvent: {}
+[6.325027] (-) TimerEvent: {}
+[6.425359] (-) TimerEvent: {}
+[6.525664] (-) TimerEvent: {}
+[6.625980] (-) TimerEvent: {}
+[6.726382] (-) TimerEvent: {}
+[6.826715] (-) TimerEvent: {}
+[6.927059] (-) TimerEvent: {}
+[7.027400] (-) TimerEvent: {}
+[7.127740] (-) TimerEvent: {}
+[7.228121] (-) TimerEvent: {}
+[7.328515] (-) TimerEvent: {}
+[7.428887] (-) TimerEvent: {}
+[7.529255] (-) TimerEvent: {}
+[7.629638] (-) TimerEvent: {}
+[7.730073] (-) TimerEvent: {}
+[7.830430] (-) TimerEvent: {}
+[7.930792] (-) TimerEvent: {}
+[8.031191] (-) TimerEvent: {}
+[8.131588] (-) TimerEvent: {}
+[8.172072] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[8.231751] (-) TimerEvent: {}
+[8.332441] (-) TimerEvent: {}
+[8.432824] (-) TimerEvent: {}
+[8.533164] (-) TimerEvent: {}
+[8.553503] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target listener\n'}
+[8.554769] (cpp_pubsub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.557192] (cpp_pubsub) CommandEnded: {'returncode': 2}
+[8.621916] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 2}
+[8.632668] (-) EventReactorShutdown: {}
