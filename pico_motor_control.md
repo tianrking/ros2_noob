@@ -16,6 +16,8 @@
 
     ```bash
     git clone https://github.com/raspberrypi/pico-sdk ~/pico-sdk
+    cd ~/pico-sdk
+    git submodule update --init
     export PICO_SDK_PATH={pico-sdk下载的路径}
     ```
 
@@ -42,7 +44,7 @@ cp ~/pico-sdk/external/pico_sdk_import.cmake ~/pico_project
     include(pico_sdk_import.cmake)
 
     project(my_project)
-
+    enable_language( C CXX ASM )
     # 初始化 pico-sdk 开发套件
     pico_sdk_init()
 
