@@ -103,7 +103,7 @@ V-pwm = 3.3*50% = 1.65V 在高频的情况下我们也可以将其视为一个1.
     #include "hardware/pwm.h"
 
     #include "iostream"
-
+    int GPIO_motor_pwm = 6;
     int wrap;
 
     int main() {
