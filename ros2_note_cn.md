@@ -18,6 +18,8 @@
 
     ```bash
     git clone https://github.com/raspberrypi/pico-sdk ~/pico-sdk
+    cd ~/pico-sdk
+    git submodule update --init
     export PICO_SDK_PATH={pico-sdk下载的路径}
     ```
 
